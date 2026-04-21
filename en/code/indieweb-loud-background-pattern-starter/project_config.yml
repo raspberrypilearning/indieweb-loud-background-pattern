@@ -1,0 +1,4 @@
+name: "Indieweb Loud Background Pattern"
+identifier: "indieweb-loud-background-pattern-starter"
+type: 'html'
+build: true

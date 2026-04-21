@@ -1,45 +1,47 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Add the first loud stripes</h2>
 
-A brief description - one or two sentences. 
+You will turn the plain page into a repeating striped background.
 
---- print-only ---
+Open `style.css` and add the body styles that centre the page and paint big diagonal stripes behind it.
 
-![ALT TEXT](images/IMAGE.png)
+<div class="c-project-code">
 
---- /print-only ---
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-19
+---
+/* Start with one loud striped layer on the page background. */
+* {
+  box-sizing: border-box;
+}
 
---- no-print ---
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #170f2c;
+  background-color: #ffe45e;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #171717 0 14px,
+    #ffe45e 14px 28px
+  );
+}
+--- /code ---
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
+<h2 class="c-project-heading--task">Test</h2>
 
-### You will need:
-- a
-- b
-- c
+You should see the page sitting on top of big repeating diagonal stripes.
+
+<div class="c-project-output">
+  <img src="images/step_1_output.png" alt="Observed project output after this step.">
+</div>

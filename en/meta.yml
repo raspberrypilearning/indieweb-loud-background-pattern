@@ -1,14 +1,14 @@
-title: Project title in sentence case
 hero_image: images/banner.png
 description: A short description of the project
 listed: false
 pdf: false
+title: 'Retro Background'
+landing: true
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: 'Add the first loud stripes'
+  - title: 'Make the pattern worse'
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - 'engaged'
+  - title: 'Keep the text readable'
     completion:
-      - external
+      - 'internal'
