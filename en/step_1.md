@@ -4,6 +4,18 @@ You will turn the plain page into a repeating striped background.
 
 Open `style.css` and add the body styles that centre the page and paint big diagonal stripes behind it.
 
+<div class="c-project-tip">
+
+<p><strong>Tip:</strong> If you want to experiment after this works, try swapping the `background-image` line for a different repeating pattern.</p>
+
+<p>You could try vertical stripes with `repeating-linear-gradient(90deg, #171717 0 14px, #ffe45e 14px 28px)`.</p>
+
+<p>You could try horizontal stripes with `repeating-linear-gradient(0deg, #171717 0 14px, #ffe45e 14px 28px)`.</p>
+
+<p>You could try loud spotty rings with `repeating-radial-gradient(circle, #171717 0 10px, #ffe45e 10px 22px)`.</p>
+
+</div>
+
 <div class="c-project-code">
 
 --- code ---

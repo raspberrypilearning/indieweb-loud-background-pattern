@@ -2,13 +2,16 @@ hero_image: images/banner.png
 description: A short description of the project
 listed: false
 pdf: false
-title: 'Retro Background'
+title: 'Indieweb Loud Background Pattern'
 landing: true
 steps:
   - title: 'Add the first loud stripes'
   - title: 'Make the pattern worse'
     completion:
       - 'engaged'
-  - title: 'Keep the text readable'
+  - title: 'Add the note box'
     completion:
       - 'internal'
+  - title: 'Style the heading and text'
+    completion:
+      - 'external'
