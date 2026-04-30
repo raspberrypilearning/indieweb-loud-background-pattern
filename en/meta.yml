@@ -1,17 +1,18 @@
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a cursed profile wallpaper by tiling provided images in HTML
 listed: false
 pdf: false
 title: 'Indieweb Loud Background Pattern'
 landing: true
 steps:
-  - title: 'Add the first loud stripes'
-  - title: 'Make the pattern worse'
+  - title: 'Start the background tiles'
+  - title: 'Add another row'
+  - title: 'Fill the background'
     completion:
       - 'engaged'
-  - title: 'Add the note box'
+  - title: 'Add the warning note header'
     completion:
       - 'internal'
-  - title: 'Style the heading and text'
+  - title: 'Add the final rumour'
     completion:
       - 'external'

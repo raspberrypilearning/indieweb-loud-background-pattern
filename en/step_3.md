@@ -1,54 +1,51 @@
-<h2 class="c-project-heading--task">Add the note box</h2>
+<h2 class="c-project-heading--task">Fill the background</h2>
 
-You will add a small panel so the background can stay wild without swallowing the page text.
+Add a third `wallpaper-row` so the provided pattern images tile across much more of the page.
 
-Still in `style.css`, add the `.pattern-note` rule in the middle of the page.
+<h2 class="c-project-heading--explainer">Make this change</h2>
+
+Stay in `index.html` and put the new row underneath the second one.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 28
-line_highlights: 30-40
+line_number_start: 9
+line_highlights: 23-28
 ---
-}
-
-.pattern-note {
-  width: min(360px, 100%);
-  padding: 22px;
-  border: 5px solid #170f2c;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow:
-    0 0 0 6px #ffffff,
-    0 16px 0 #170f2c;
-  text-align: center;
-}
+  <body>
+    <div class="wallpaper" aria-hidden="true">
+      <div class="wallpaper-row">
+        <img src="maze.gif" alt="">
+        <img src="leopard.gif" alt="">
+        <img src="maze.gif" alt="">
+        <img src="leopard.gif" alt="">
+      </div>
+      <div class="wallpaper-row">
+        <img src="dots.gif" alt="">
+        <img src="eye.gif" alt="">
+        <img src="dots.gif" alt="">
+        <img src="eye.gif" alt="">
+      </div>
+      <div class="wallpaper-row">
+        <img src="chainlink.gif" alt="">
+        <img src="red.gif" alt="">
+        <img src="purple_shine.gif" alt="">
+        <img src="rainbow.gif" alt="">
+      </div>
+    </div>
+  </body>
 --- /code ---
 
 </div>
 
-<h2 class="c-project-heading--task">Test</h2>
+## Now run your code
 
-You should now see a small readable box sitting on top of the gloriously too-much background.
-
-<div class="c-project-tip">
-
-<h3>Tip</h3>
-
-<p>`border-radius` changes whether the box feels sharp-cornered or soft and rounded.</p>
-
-<p>`border` changes how heavy and loud the box outline feels.</p>
-
-<p>`background` changes how solid or see-through the note panel looks against the wallpaper.</p>
-
-<p>`box-shadow` changes how much the note seems to pop off the page.</p>
-
-</div>
+You should now see the pattern images tiled across the background instead of just sitting in one area.
 
 <div class="c-project-output">
-  <img src="images/step_3_output.png" alt="Observed project output after this step.">
+  <img src="images/step_3_output.png" alt="Expected project output after step 3 showing three rows of tiled pattern images across the background.">
 </div>

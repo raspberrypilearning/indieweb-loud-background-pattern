@@ -1,18 +1,18 @@
-<h2 class="c-project-heading--task">Add the first loud stripes</h2>
+<h2 class="c-project-heading--task">Start the background tiles</h2>
 
-You will turn the plain page into a repeating striped background.
+Add the wallpaper container and the first row of provided pattern images inside `<body>`.
 
-Open `style.css` and add the body styles that centre the page and paint big diagonal stripes behind it.
+<h2 class="c-project-heading--explainer">Make this change</h2>
+
+Open `index.html`. The starter file has an empty `<body>`, so add the `wallpaper` `<div>` and one `wallpaper-row` inside it.
 
 <div class="c-project-tip">
 
-<p><strong>Tip:</strong> If you want to experiment after this works, try swapping the `background-image` line for a different repeating pattern.</p>
+<h3>Tip</h3>
 
-<p>You could try vertical stripes with `repeating-linear-gradient(90deg, #171717 0 14px, #ffe45e 14px 28px)`.</p>
+<p>These images are only decorative, so each `<img>` uses `alt=""`.</p>
 
-<p>You could try horizontal stripes with `repeating-linear-gradient(0deg, #171717 0 14px, #ffe45e 14px 28px)`.</p>
-
-<p>You could try loud spotty rings with `repeating-radial-gradient(circle, #171717 0 10px, #ffe45e 10px 22px)`.</p>
+<p>The provided files live next to `index.html`, so you can use filenames like `maze.gif` and `leopard.gif` directly.</p>
 
 </div>
 
@@ -20,40 +20,39 @@ Open `style.css` and add the body styles that centre the page and paint big diag
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: html
+filename: index.html
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-19
+line_highlights: 9-16
 ---
-/* Start with one loud striped layer on the page background. */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 24px;
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-  color: #170f2c;
-  background-color: #ffe45e;
-  background-image: repeating-linear-gradient(
-    45deg,
-    #171717 0 14px,
-    #ffe45e 14px 28px
-  );
-}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WALLPAPER_DO-NOT-STARE.gif</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wallpaper" aria-hidden="true">
+      <div class="wallpaper-row">
+        <img src="maze.gif" alt="">
+        <img src="leopard.gif" alt="">
+        <img src="maze.gif" alt="">
+        <img src="leopard.gif" alt="">
+      </div>
+    </div>
+  </body>
+</html>
 --- /code ---
 
 </div>
 
-<h2 class="c-project-heading--task">Test</h2>
+## Now run your code
 
-You should see the page sitting on top of big repeating diagonal stripes.
+You should see one row of loud pattern tiles on the page background.
 
 <div class="c-project-output">
-  <img src="images/step_1_output.png" alt="Observed project output after this step.">
+  <img src="images/step_1_output.png" alt="Expected project output after step 1 showing the first row of decorative pattern images on the background.">
 </div>

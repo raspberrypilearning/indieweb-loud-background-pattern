@@ -1,42 +1,45 @@
-<h2 class="c-project-heading--task">Make the pattern worse</h2>
+<h2 class="c-project-heading--task">Add another row</h2>
 
-You will stack more repeated shapes on top of the stripes to make the background noisier.
+Add one more `wallpaper-row` inside the same `wallpaper` container so the pattern starts to spread.
 
-Stay in `style.css` and add a dot layer plus another set of repeating lines.
+<h2 class="c-project-heading--explainer">Make this change</h2>
+
+Stay in `index.html` and put the new row underneath the first one.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 1
-line_highlights: 13-24
+line_number_start: 9
+line_highlights: 17-22
 ---
-body {
-  margin: 0;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 24px;
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-  color: #170f2c;
-  background-color: #ffe45e;
-  background-image:
-    radial-gradient(circle, #ff47b5 0 18px, transparent 19px),
-    repeating-linear-gradient(45deg, #171717 0 14px, #ffe45e 14px 28px),
-    repeating-linear-gradient(-45deg, rgba(0, 225, 255, 0.55) 0 16px, transparent 16px 32px);
-  background-size: 120px 120px, auto, auto;
-}
+  <body>
+    <div class="wallpaper" aria-hidden="true">
+      <div class="wallpaper-row">
+        <img src="maze.gif" alt="">
+        <img src="leopard.gif" alt="">
+        <img src="maze.gif" alt="">
+        <img src="leopard.gif" alt="">
+      </div>
+      <div class="wallpaper-row">
+        <img src="dots.gif" alt="">
+        <img src="eye.gif" alt="">
+        <img src="dots.gif" alt="">
+        <img src="eye.gif" alt="">
+      </div>
+    </div>
+  </body>
 --- /code ---
 
 </div>
 
-<h2 class="c-project-heading--task">Test</h2>
+## Now run your code
 
-The background should now feel much louder, with repeated dots and clashing lines.
+You should now see two rows of pattern images making a stronger wallpaper.
 
 <div class="c-project-output">
-  <img src="images/step_2_output.png" alt="Observed project output after this step.">
+  <img src="images/step_2_output.png" alt="Expected project output after step 2 showing two rows of decorative pattern images.">
 </div>
