@@ -4,7 +4,7 @@ Add one more paragraph inside the note panel so the wallpaper gets its dramatic 
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `index.html` and put the new paragraph underneath `<p class="status">`.
+Put the new paragraph underneath `<p class="status">`.
 
 <div class="c-project-code">
 

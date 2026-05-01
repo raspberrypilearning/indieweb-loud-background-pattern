@@ -4,7 +4,7 @@ Add the visible note panel on top of the wallpaper so the page looks like a dram
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `index.html` and put this `<main class="pattern-note">` section inside `<body>`.
+Go back to `index.html` and put this `<main class="pattern-note">` section inside `<body>`.
 
 <div class="c-project-code">
 
