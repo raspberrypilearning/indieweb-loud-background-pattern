@@ -2,6 +2,10 @@
 
 Add one wallpaper image to the page background so the profile skin starts with a single loud patch.
 
+## Step 1
+Run the code to see the unstyled page.
+
+## Step 2
 Open `style.css`. Add these lines inside the `body` rule so the browser uses `leopard.gif` as a background image.
 
 <div class="c-project-code">
