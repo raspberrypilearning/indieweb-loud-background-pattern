@@ -1,58 +1,44 @@
-<h2 class="c-project-heading--task">Start the background tiles</h2>
+<h2 class="c-project-heading--task">Start the terrible tile</h2>
 
-Add the wallpaper container and the first row of provided pattern images inside `<body>`.
+Add one wallpaper image to the page background so the profile skin starts with a single loud patch.
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Open `index.html`. The starter file has an empty `<body>`, so add the `wallpaper` `<div>` and one `wallpaper-row` inside it.
-
-<div class="c-project-tip">
-
-<h3>Tip</h3>
-
-<p>These images are only decorative, so each `<img>` uses `alt=""`.</p>
-
-<p>The provided files live next to `index.html`, so you can use filenames like `maze.gif` and `leopard.gif` directly.</p>
-
-</div>
+Open `style.css`. Add these lines inside the `body` rule so the browser uses `leopard.gif` as a background image.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: index.html
+language: css
+filename: style.css
 line_numbers: true
-line_number_start: 1
-line_highlights: 9-16
+line_number_start: 6
+line_highlights: 12-15
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WALLPAPER_DO-NOT-STARE.gif</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="wallpaper" aria-hidden="true">
-      <div class="wallpaper-row">
-        <img src="maze.gif" alt="">
-        <img src="leopard.gif" alt="">
-        <img src="maze.gif" alt="">
-        <img src="leopard.gif" alt="">
-      </div>
-    </div>
-  </body>
-</html>
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  overflow: hidden;
+  background-color: #19001d;
+  background-image: url("leopard.gif");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 220px 220px;
+  color: #26001b;
+  font-family: Verdana, Geneva, sans-serif;
+}
 --- /code ---
 
 </div>
 
 ## Now run your code
 
-You should see one row of loud pattern tiles on the page background.
+You should see one giant patch of leopard wallpaper in the top-left corner instead of a fully tiled page.
 
 <div class="c-project-output">
-  <img src="images/step_1_output.png" alt="Expected project output after step 1 showing the first row of decorative pattern images on the background.">
+  <img src="images/step_1_output.png" alt="Expected project output after step 1 showing one large leopard wallpaper tile in the corner of the page.">
 </div>

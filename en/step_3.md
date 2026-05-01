@@ -1,51 +1,34 @@
-<h2 class="c-project-heading--task">Fill the background</h2>
+<h2 class="c-project-heading--task">Shrink it into chaos</h2>
 
-Add a third `wallpaper-row` so the provided pattern images tile across much more of the page.
+Make the repeated tile smaller so the wallpaper turns into a tight old-school mess.
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `index.html` and put the new row underneath the second one.
+Stay in `style.css` and change the `background-size` value inside the `body` rule.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: index.html
+language: css
+filename: style.css
 line_numbers: true
-line_number_start: 9
-line_highlights: 23-28
+line_number_start: 12
+line_highlights: 16
 ---
-  <body>
-    <div class="wallpaper" aria-hidden="true">
-      <div class="wallpaper-row">
-        <img src="maze.gif" alt="">
-        <img src="leopard.gif" alt="">
-        <img src="maze.gif" alt="">
-        <img src="leopard.gif" alt="">
-      </div>
-      <div class="wallpaper-row">
-        <img src="dots.gif" alt="">
-        <img src="eye.gif" alt="">
-        <img src="dots.gif" alt="">
-        <img src="eye.gif" alt="">
-      </div>
-      <div class="wallpaper-row">
-        <img src="chainlink.gif" alt="">
-        <img src="red.gif" alt="">
-        <img src="purple_shine.gif" alt="">
-        <img src="rainbow.gif" alt="">
-      </div>
-    </div>
-  </body>
+  background-color: #19001d;
+  background-image: url("leopard.gif");
+  background-repeat: repeat;
+  background-position: top left;
+  background-size: 100px 100px;
 --- /code ---
 
 </div>
 
 ## Now run your code
 
-You should now see the pattern images tiled across the background instead of just sitting in one area.
+You should now see a much tighter, nastier wallpaper pattern taking over the whole page.
 
 <div class="c-project-output">
-  <img src="images/step_3_output.png" alt="Expected project output after step 3 showing three rows of tiled pattern images across the background.">
+  <img src="images/step_3_output.png" alt="Expected project output after step 3 showing a tight repeating leopard wallpaper across the page.">
 </div>

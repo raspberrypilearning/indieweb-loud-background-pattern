@@ -13,8 +13,8 @@ Stay in `index.html` and put the new paragraph underneath `<p class="status">`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 31
-line_highlights: 35
+line_number_start: 10
+line_highlights: 14
 ---
     <main class="pattern-note">
       <p class="eyebrow">Recovered profile skin // tiled at 2:04am</p>
@@ -28,8 +28,8 @@ line_highlights: 35
 
 ## Now run your code
 
-You should now see the full warning note on top of the tiled pattern wallpaper.
+You should now see the full warning note on top of the tight tiled wallpaper.
 
 <div class="c-project-output">
-  <img src="images/step_5_output.png" alt="Expected project output after step 5 showing the full warning note on top of the tiled pattern wallpaper.">
+  <img src="images/step_5_output.png" alt="Expected project output after step 5 showing the full warning note on top of the tight tiled wallpaper.">
 </div>

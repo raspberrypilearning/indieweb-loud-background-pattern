@@ -1,13 +1,13 @@
 hero_image: images/banner.png
-description: Make a cursed profile wallpaper by tiling provided images in HTML
+description: Make a cursed profile wallpaper by using one image as a real repeating background
 listed: false
 pdf: false
 title: 'Indieweb Loud Background Pattern'
 landing: true
 steps:
-  - title: 'Start the background tiles'
-  - title: 'Add another row'
-  - title: 'Fill the background'
+  - title: 'Start the terrible tile'
+  - title: 'Make it repeat forever'
+  - title: 'Shrink it into chaos'
     completion:
       - 'engaged'
   - title: 'Add the warning note header'
