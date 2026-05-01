@@ -14,7 +14,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 12
-line_highlights: 14
+line_highlights: 15
 ---
   background-color: #19001d;
   background-image: url("leopard.gif");

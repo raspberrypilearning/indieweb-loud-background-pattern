@@ -14,7 +14,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 6
-line_highlights: 12-15
+line_highlights: 14-17
 ---
 body {
   margin: 0;

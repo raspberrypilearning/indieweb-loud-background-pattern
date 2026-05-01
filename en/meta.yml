@@ -10,9 +10,10 @@ steps:
   - title: 'Shrink it into chaos'
     completion:
       - 'engaged'
-  - title: 'Add the warning note header'
+  - title: 'Add the warning note'
     completion:
       - 'internal'
-  - title: 'Add the final rumour'
+  - title: 'Challenge: corrupt the colours even more'
     completion:
       - 'external'
+    challenge: true
