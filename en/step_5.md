@@ -2,8 +2,6 @@
 
 Mess with the colours in the CSS classes so the warning note feels even more cursed and personal.
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
 Open `style.css` and change the colour values inside `.pattern-note`, `.eyebrow`, and `.status`. Try swapping the panel background, the eyebrow background, the status background, the border colours, or the `text-shadow` colour on `h1`.
 
 <div class="c-project-code">

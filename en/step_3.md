@@ -2,8 +2,6 @@
 
 Make the repeated tile smaller so the wallpaper turns into a tight old-school mess.
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
 Stay in `style.css` and change the `background-size` value inside the `body` rule.
 
 <div class="c-project-code">

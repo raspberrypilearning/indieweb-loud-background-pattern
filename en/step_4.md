@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Add the warning note</h2>
 
-Add the visible note panel and its warning text on top of the wallpaper so the page looks like a dramatic profile warning instead of just endless leopard print.
+Add the visible note panel and its warning text on top of the wallpaper so the page looks like a website instead of just endless leopard print.
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
-Go back to `index.html` and put this full `<main class="pattern-note">` section inside `<body>`.
+Go back to `index.html` and put this full `<main class="pattern-note">` section inside `<body>`. You can make yours say whatever you like!
 
 <div class="c-project-code">
 

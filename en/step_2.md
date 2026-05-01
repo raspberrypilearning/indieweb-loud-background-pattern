@@ -2,8 +2,6 @@
 
 Change the background so the same image repeats across the whole page instead of appearing only once.
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
 Stay in `style.css` and change the `background-repeat` value inside the `body` rule.
 
 <div class="c-project-code">
