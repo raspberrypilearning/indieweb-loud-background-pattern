@@ -12,7 +12,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 12
-line_highlights: 15
+line_highlights: 13
 ---
   background-color: #19001d;
   background-image: url("leopard.gif");

@@ -12,8 +12,4 @@ steps:
       - 'engaged'
   - title: 'Add the warning note'
     completion:
-      - 'internal'
-  - title: 'Challenge: corrupt the colours even more'
-    completion:
       - 'external'
-    challenge: true
