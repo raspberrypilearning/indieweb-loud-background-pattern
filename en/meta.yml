@@ -1,6 +1,6 @@
 hero_image: images/banner.png
 description: Make a cursed profile wallpaper by using one image as a real repeating background
-listed: false
+listed: true
 pdf: false
 title: 'Indieweb Loud Background Pattern'
 landing: true
